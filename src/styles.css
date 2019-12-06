@@ -5,7 +5,7 @@
 }
 
 .container {
-	width: 90vh;
+	width: 40vw;
 	margin: 0 auto;
 	margin-top: 20px;
 }
@@ -26,4 +26,29 @@ td {
 ul {
 	padding-left: 20px;
 }
+
+
+
+/* media queries */
+@media (max-width:680px) {
+	.container {
+		width: 100vw;
+	}
+	table {
+		background-color: #ffcd1742;
+	}
+	table, td, th {
+		border-style: dotted;
+	}
+}
+
+@media (min-width:681px) and (max-width:900px) {
+	.container {
+		width: 80vw;
+	}
+	table {
+		background-color: #59ff2342;
+	}
+}
+
 /*git config credential.helper ""*/
